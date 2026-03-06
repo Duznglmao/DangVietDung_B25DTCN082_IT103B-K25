@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập luyện tập</title>
+    <style>
+        /* body {
+            background: #00fda9;
+            background: linear-gradient(90deg, rgb(5, 145, 238) 15%, rgb(255, 9, 222) 100%);
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: rgb(3, 249, 212);
+        }
+
+        input,
+        h1,
+        button {
+            animation: spin 0.001s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg) scale(1) translateY(0px);
+                opacity: 1;
+            }
+
+            50% {
+                transform: rotate(180deg) scale(2) translateY(200deg);
+                opacity: 1;
+
+            }
+
+            100% {
+                transform: rotate(360deg) scale(3) translateY(-100px);
+                opacity: 0.1;
+            }
+        } */
+
+        ul li {
+            list-style: none;
+        }
+
+        .active {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>To Do List CNTT1</h1>
+    <input type="text" id="task_name" placeholder="Nhập tên công việc">&nbsp;<button onclick="addTask()" id="btn">Thêm công
+        việc</button>
+    <ul id="list">
+        <!-- <li><input type="checkbox">Học JS &nbsp;<button>Sửa</button> <button>Xóa</button></li>
+        <li><input type="checkbox">Đá bóng &nbsp;<button>Sửa</button> <button>Xóa</button></li>
+        <li><input type="checkbox">Đá cầu &nbsp;<button>Sửa</button> <button>Xóa</button></li> -->
+    </ul>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
