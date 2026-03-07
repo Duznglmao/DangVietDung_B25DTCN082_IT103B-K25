@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN9</title>
+    <style>
+        body {
+            text-align: center;
+            padding-top: 50px;
+            font-family: Arial;
+        }
+
+        progress {
+            width: 300px;
+            height: 30px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <progress id="myProgressBar" value="0" max="100"></progress>
+    <p id="percentText">Tiến độ: 0%</p>
+    <button onclick="changeProgress(-10)">Giảm tiến trình</button>
+    <button onclick="changeProgress(10)">Tăng tiến trình</button>
+    <script src="./BTVN9.js"></script>
+</body>
+
+</html>
