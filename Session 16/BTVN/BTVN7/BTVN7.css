@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.mainContent {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.productSection {
+    flex: 2.5;
+}
+
+.productSection h2 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.cartSection {
+    flex: 1;
+}
+
+.productFlex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.productCard {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: calc(33.333% - 14px);
+    /* Đổ bóng nhẹ để giống ảnh */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+}
+
+.productCard img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.productCard h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productCard p {
+    color: #ff4d4d;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cartContainer {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.cartContainer h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#cartList {
+    min-height: 50px;
+    color: #888;
+}
+
+.btnAdd {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btnAdd:hover {
+    background: #45a049;
+}
+
+.btnCheckout {
+    width: 100%;
+    background: #4d66f1;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
