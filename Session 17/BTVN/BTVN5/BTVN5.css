@@ -1,0 +1,137 @@
+body {
+    background-color: #fdf5e6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #c62828;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+.inputSection {
+    background-color: #fff9e6;
+    padding: 15px 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#todoInput {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+#addBtn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+}
+
+.todoItem {
+    background-color: #fffdec;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    border-left: 6px solid #ff9800;
+}
+
+.todoItem.completed {
+    background-color: #e8f5e9;
+    border-left: 6px solid #4caf50;
+    color: #888;
+}
+
+.todoText {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.completed .todoText span {
+    text-decoration: line-through;
+}
+
+.editInput {
+    flex: 1;
+    padding: 5px 10px;
+    border: 1px solid #2196f3;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+.circle {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    flex-shrink: 0;
+}
+
+.completed .circle {
+    background-color: #4caf50;
+    border-color: #4caf50;
+    color: white;
+}
+
+.btnGroup {
+    display: flex;
+    gap: 5px;
+}
+
+.actionBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #bbb;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.actionBtn:hover {
+    color: #555;
+}
+
+.deleteBtn:hover {
+    color: #e32d2d;
+}
+
+.footer {
+    text-align: center;
+    font-size: 11px;
+    color: #999;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}

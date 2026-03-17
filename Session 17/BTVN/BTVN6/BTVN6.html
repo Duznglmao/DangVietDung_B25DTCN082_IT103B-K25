@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN6</title>
+    <link rel="stylesheet" href="./BTVN6.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>Công việc chuẩn bị Tết</h1>
+            <p>Quản lý toàn diện danh sách</p>
+        </div>
+
+        <div id="statsContainer" class="stats-bar"></div>
+
+        <div class="inputSection">
+            <input type="text" id="todoInput" placeholder="Nhập công việc mới...">
+            <button id="addBtn" onclick="addTodo()">Thêm</button>
+            <button id="deleteAllBtn" onclick="deleteAllTodos()">Xóa toàn bộ</button>
+        </div>
+
+        <div class="content" id="todoContainer"></div>
+
+        <div class="footer">
+            Mọi thay đổi được lưu tự động vào localStorage • Refresh để kiểm tra
+        </div>
+    </div>
+    <script src="./BTVN6.js"></script>
+</body>
+
+</html>

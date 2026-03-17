@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN3</title>
+    <link rel="stylesheet" href="./BTVN3.css">
+</head>
+
+<body>
+  <div class="card">
+    <div class="header">
+        <h1>Công việc chuẩn bị Tết</h1>
+        <p>Thêm công việc mới & đánh dấu hoàn thành</p>
+    </div>
+
+    <div class="inputSection">
+        <input type="text" id="todoInput" placeholder="Nhập công việc mới...">
+        <button id="addBtn" onclick="addTodo()">Thêm</button>
+    </div>
+    
+    <div class="content" id="todoContainer"></div>
+
+    <div class="footer">
+        Mọi thay đổi (thêm / đánh dấu) được lưu tự động vào localStorage • Refresh để kiểm tra
+    </div>
+</div>
+    <script src="./BTVN3.js"></script>
+</body>
+
+</html>
