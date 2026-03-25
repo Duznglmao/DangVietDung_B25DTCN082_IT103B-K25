@@ -18,7 +18,7 @@ const clearForm = () => {
     titleInput.value = "";
     artistInput.value = "";
     editingId = null;
-    formTitle.textContent = "Thêm bài hát";
+    formTitle.textContent = "💀Thêm bài hát";
     submitBtn.textContent = "Thêm";
     titleInput.focus();
 };
@@ -70,7 +70,7 @@ const editSong = (id) => {
     titleInput.value = song.name;
     artistInput.value = song.artist;
     editingId = id;
-    formTitle.textContent = "Sửa bài hát";
+    formTitle.textContent = "🥀Sửa bài hát";
     submitBtn.textContent = "Cập nhật";
     titleInput.focus();
 };
